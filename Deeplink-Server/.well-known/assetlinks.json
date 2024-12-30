@@ -2,7 +2,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.rnui",
+      "package_name": "com.deeplinkapp",
       "sha256_cert_fingerprints":[
         "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C",
         "AB:0D:7C:09:62:55:57:40:2E:DC:BC:D7:02:3D:60:2C:34:4E:DD:5C:53:CA:BC:03:45:2D:0F:A9:11:78:9F:0E"
