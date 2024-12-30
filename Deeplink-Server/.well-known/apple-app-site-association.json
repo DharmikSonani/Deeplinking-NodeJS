@@ -1,0 +1,10 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [ "org.reactjs.native.example.DeeplinkApp" ],
+                "paths": [ "*" ]
+            }
+        ]
+    }
+}

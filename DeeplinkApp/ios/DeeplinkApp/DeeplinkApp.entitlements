@@ -5,6 +5,7 @@
 	<key>com.apple.developer.associated-domains</key>
 	<array>
 		<string>webcredentials:deeplink</string>
+		<string>applinks:deeplinking-nodejs.vercel.app</string>
 	</array>
 </dict>
 </plist>
