@@ -6,6 +6,7 @@
 	<array>
 		<string>webcredentials:deeplink</string>
 		<string>applinks:deeplinking-nodejs.vercel.app</string>
+		<string>webcredentials:deeplinking-nodejs.vercel.app</string>
 	</array>
 </dict>
 </plist>

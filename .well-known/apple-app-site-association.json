@@ -1,0 +1,13 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [ "[team-id].org.reactjs.native.example.DeeplinkApp" ],
+                "paths": [ "*" ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [ "[team-id].org.reactjs.native.example.DeeplinkApp" ]
+    }
+}
