@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 // Serve .well-known/assetlinks.json
-// app.use('/.well-known', express.static(path.join(__dirname, '.well-known')));
+app.use('/.well-known', express.static(path.join(__dirname, '.well-known')));
 
 // Default route
 app.get('/', (req, res) => {
