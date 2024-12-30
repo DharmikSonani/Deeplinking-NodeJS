@@ -1,0 +1,9 @@
+Deeplinking Testing
+
+For IOS : Domain [deeplink]
+    Syntax : xcrun simctl openurl booted [deep link]
+    Example : xcrun simctl openurl booted deeplink://localhost
+
+For Android : Domain [deeplinking-nodejs.vercel.app]
+    Syntax : adb shell am start -a android.intent.action.VIEW -c android.intent.category.BROWSABLE -d [deep link]
+    Example : adb shell am start -a android.intent.action.VIEW -c android.intent.category.BROWSABLE -d https://deeplinking-nodejs.vercel.app

@@ -1,0 +1,17 @@
+1. Create file [.well-known/assetlinks.json]
+
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.app",
+      "sha256_cert_fingerprints":[]
+    }
+}]
+
+
+2. Add below code in index.js (Express server)
+
+const path = require('path');
+
+app.use('/.well-known', express.static(path.join(__dirname, '.well-known')));
