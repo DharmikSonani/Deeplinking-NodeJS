@@ -1,4 +1,6 @@
-1. Create file [.well-known/assetlinks.json]
+1. Create file 
+
+Android : [.well-known/assetlinks.json]
 
 [{
     "relation": ["delegate_permission/common.handle_all_urls"],
@@ -9,6 +11,21 @@
     }
 }]
 
+IOS : [.well-known/apple-app-site-association.json]
+
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [ "[team-id].[bundle-identifier]" ],
+                "paths": [ "*" ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [ "[team-id].[bundle-identifier]" ]
+    }
+}
 
 2. Add below code in index.js (Express server)
 
