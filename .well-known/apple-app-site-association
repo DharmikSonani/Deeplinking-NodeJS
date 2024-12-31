@@ -1,0 +1,18 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [ "[team-id].[bundle-identifier]" ],
+                "components": [
+                    {
+                        "/": "/*",
+                        "comment": "Matches any URL with domain."
+                    }
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [ "[team-id].[bundle-identifier]" ]
+    }
+}

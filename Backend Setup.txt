@@ -11,14 +11,19 @@ Android : [.well-known/assetlinks.json]
     }
 }]
 
-IOS : [.well-known/apple-app-site-association.json]
+IOS : [.well-known/apple-app-site-association]
 
 {
     "applinks": {
         "details": [
             {
                 "appIDs": [ "[team-id].[bundle-identifier]" ],
-                "paths": [ "*" ]
+                "components": [
+                    {
+                        "/": "/*",
+                        "comment": "Matches any URL with domain."
+                    }
+                ]
             }
         ]
     },
