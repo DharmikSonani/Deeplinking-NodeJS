@@ -63,8 +63,8 @@ Modify the `AppDelegate.mm` file to handle deep links:
 - [GitHub - AppDelegate.mm](https://github.com/DharmikSonani/Deeplinking-NodeJS/blob/main/DeeplinkApp/ios/DeeplinkApp/AppDelegate.mm)
 
 Additional Resources:
-- [Internal Links Info](https://drive.google.com/file/d/1NOq1P0nmI8gVFiPgWacgq4TLOLU4yOUa/view?usp=drive_link)
-- [Universal Links Setup](https://drive.google.com/file/d/1WTtf4iJIKYTTzplOivHMyE1EKi7H2nq8/view?usp=drive_link)
+- [Internal Links Info](https://github.com/DharmikSonani/Deeplinking-NodeJS/blob/main/DeeplinkApp/ios-setup/Info.png)
+- [Universal Links Setup](https://github.com/DharmikSonani/Deeplinking-NodeJS/blob/main/DeeplinkApp/ios-setup/Signing%20%26%20Capabilities.png)
 
 ---
 
