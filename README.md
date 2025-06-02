@@ -3,7 +3,7 @@
 ## Frontend (React Native)
 
 ### 1. Android
-#### File: `android/app/src/main/AndroidManifest.xml`
+#### File: [`android/app/src/main/AndroidManifest.xml`](https://github.com/DharmikSonani/Deeplinking-NodeJS/blob/main/DeeplinkApp/android/app/src/main/AndroidManifest.xml)
 Add the following intent filter to your AndroidManifest.xml file:
 ```xml
 <manifest>
@@ -33,13 +33,10 @@ Add the following intent filter to your AndroidManifest.xml file:
   npm run android
   ```
 
-#### Links:
-- [GitHub - AndroidManifest.xml](https://github.com/DharmikSonani/Deeplinking-NodeJS/blob/main/DeeplinkApp/android/app/src/main/AndroidManifest.xml)
-
 ---
 
 ### 2. iOS
-#### File: `ios/Synthesis/AppDelegate.mm`
+#### File: [`ios/DeeplinkApp/AppDelegate.mm`](https://github.com/DharmikSonani/Deeplinking-NodeJS/blob/main/DeeplinkApp/ios/DeeplinkApp/AppDelegate.mm)
 Modify the `AppDelegate.mm` file to handle deep links:
 ```objc
 #import "AppDelegate.h"
@@ -100,16 +97,12 @@ Modify the `AppDelegate.mm` file to handle deep links:
   cd ..
   npm run ios
   ```
-
-#### Links:
-- [GitHub - AppDelegate.mm](https://github.com/DharmikSonani/Deeplinking-NodeJS/blob/main/DeeplinkApp/ios/DeeplinkApp/AppDelegate.mm)
-
 ---
 
 ## Backend / Server (Node.js / Vercel)
 
 ### 1. Android
-#### File: `.well-known/assetlinks.json`
+#### File: [`.well-known/assetlinks.json`](https://github.com/DharmikSonani/Deeplinking-NodeJS/blob/main/Deeplink-Server/.well-known/assetlinks.json)
 Create the `assetlinks.json` file:
 ```json
 [
@@ -148,13 +141,10 @@ https://deeplinking-nodejs.vercel.app/.well-known/assetlinks.json
 - For websites (React JS), use `public/.well-known/assetlinks.json`.
 - The **index.js** file and the **.well-known or public** directory are located in the same directory.
 
-#### Links:
-- [GitHub - assetlinks.json](https://github.com/DharmikSonani/Deeplinking-NodeJS/blob/main/Deeplink-Server/.well-known/assetlinks.json)
-
 ---
 
 ### 2. iOS
-#### File: `.well-known/apple-app-site-association`
+#### File: [`.well-known/apple-app-site-association`](https://github.com/DharmikSonani/Deeplinking-NodeJS/blob/main/Deeplink-Server/.well-known/apple-app-site-association)
 Create the `apple-app-site-association` file:
 ```json
 {
@@ -213,12 +203,9 @@ https://deeplinking-nodejs.vercel.app/.well-known/apple-app-site-association
 - For websites (React JS), use `public/.well-known/apple-app-site-association`.
 - The **index.js** file and the **.well-known or public** directory are located in the same directory.
 
-#### Links:
-- [GitHub - apple-app-site-association](https://github.com/DharmikSonani/Deeplinking-NodeJS/blob/main/Deeplink-Server/.well-known/apple-app-site-association)
-
 ---
 
-### 3. Backend Server: `index.js`
+### 3. Backend Server: [`index.js`](https://github.com/DharmikSonani/Deeplinking-NodeJS/blob/main/Deeplink-Server/index.js)
 Set up a Node.js server to serve the `.well-known` files:
 ```javascript
 const express = require('express');
@@ -240,8 +227,6 @@ app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
 ```
-#### Links:
-- [GitHub - index.js](https://github.com/DharmikSonani/Deeplinking-NodeJS/blob/main/Deeplink-Server/index.js)
 
 ---
 
